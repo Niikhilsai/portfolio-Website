@@ -1,0 +1,203 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #3f396d;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+  }
+  
+ 
+  
+  .navbar {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3f396d;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #337ab7;
+  }
+  
+  .c-btn {
+    background-color: #3f396d;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .c-btn:hover {
+    background-color: #2f2d4e;
+  }
+  
+  .h-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  
+  
+  .home {
+    background-image: linear-gradient(to bottom, #fff, #f9f9f9);
+    padding: 5rem 0;
+  }
+  
+  .home h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3f396d;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .c-orange {
+    color: #ff9900;
+  }
+  
+  
+  
+  .expertise {
+    padding: 5rem 0;
+  }
+  
+  .expertise h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3f396d;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .service-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3f396d;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  
+  
+  .skill {
+    padding: 5rem 0;
+  }
+  
+  .skill h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3f396d;
+  }
+  
+  .skill-with-progress {
+    padding: 2rem;
+  }
+  
+  .progress-card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .circular-progress {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 10px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3f396d;
+  }
+  
+  .html-css {
+    border-color: #ff9900;
+  }
+  
+  .javascript {
+    border-color: #337ab7;
+  }
+  
+  .php {
+    border-color: #8e44ad;
+  }
+  
+  .reactjs {
+    border-color: #61dafb;
+  }
+  
+  
+  
+  .portfolio {
+    padding: 
